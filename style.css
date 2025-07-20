@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #1e90ff;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border: none;
+  background-color: white;
+  color: #1e90ff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.job-card h3 {
+  margin: 0 0 5px;
+}
+
+.job-card button {
+  margin-right: 10px;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.fav-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+#application-form, #auth-forms {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"], #closeForm, #loginSubmit, #registerSubmit {
+  background-color: #007bff;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: #1e90ff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}

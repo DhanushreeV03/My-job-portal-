@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Job Portfolio | MyLinkedIn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My LinkedIn Portfolio</h1>
+  </header>
+
+  <div class="container">
+    <section class="profile">
+      <img src="https://via.placeholder.com/120" alt="Profile Picture" />
+      <h2>Dhanushree V</h2>
+      <p>Frontend Developer | React | JavaScript</p>
+    </section>
+
+    <section class="experience" id="experienceSection">
+      <h3>Experience</h3>
+
+      <!-- Initial job -->
+      <div class="job">
+        <h4>Frontend Developer - TechCorp</h4>
+        <p>Jan 2023 – Present</p>
+        <p>Worked on UI components and responsive design using React and Tailwind CSS.</p>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h3>Add Experience</h3>
+      <input type="text" id="title" placeholder="Job Title - Company" />
+      <input type="text" id="duration" placeholder="Duration (e.g., Jan 2020 - Dec 2021)" />
+      <textarea id="description" rows="4" placeholder="Description of work..."></textarea>
+      <button onclick="addExperience()">Add Experience</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
